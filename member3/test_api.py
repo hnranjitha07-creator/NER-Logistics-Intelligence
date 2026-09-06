@@ -31,7 +31,7 @@ print("\n--- Get Route ---")
 source = input("Enter source district: ")
 target = input("Enter target district: ")
 
-check_endpoint("Get Route", f"{BASE_URL}/get_route", "POST",
+check_endpoint("Get Route", f"{BASE_URL}/get_route", "GET",
                {"source": source, "target": target})
 
 # --- Road Accessibility ---
